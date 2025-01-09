@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       {count}
-      <div onClick={handleClick}>증가</div>
+      <button onClick={handleClick}>증가</button>
     </>
   );
 }
